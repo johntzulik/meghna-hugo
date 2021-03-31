@@ -1,0 +1,25 @@
+################################# funfacts ##################################
+funfacts:
+  enable : true
+  bg_image : "images/backgrounds/bg-white-wall.jpg"
+  bg_image_webp : "images/backgrounds/bg-white-wall.webp"
+  counter_item:
+    # counter item loop
+    - title : "Clientes Felices"
+      icon : "ti-face-smile" # themify icon pack : https://themify.me/themify-icons
+      count : "320"
+    
+    # counter item loop
+    - title : "Proyectos completos"
+      icon : "ti-archive" # themify icon pack : https://themify.me/themify-icons
+      count : "63"
+    
+    # counter item loop
+    - title : "Comentarios positivos"
+      icon : "ti-thumb-up" # themify icon pack : https://themify.me/themify-icons
+      count : "17282"
+    
+    # counter item loop
+    - title : "Tasas de café"
+      icon : "ti-crown" # themify icon pack : https://themify.me/themify-icons
+      count : "25734920"

@@ -21,6 +21,13 @@ sections:
   match: "**/*"
   templates:
   - post
+- type: directory
+  path: exampleSite/content/spanish/blog
+  label: Post (es)
+  create: documents
+  match: "**/*"
+  templates:
+  - post
 - type: heading
   label: Author
 - type: directory
@@ -33,6 +40,13 @@ sections:
 - type: directory
   path: exampleSite/content/french/author
   label: Author (fr)
+  create: documents
+  match: "**/*"
+  templates:
+  - author
+- type: directory
+  path: exampleSite/content/spanish/author
+  label: Author (es)
   create: documents
   match: "**/*"
   templates:

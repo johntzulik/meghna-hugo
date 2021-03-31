@@ -1,0 +1,76 @@
+#################################### portfolio ###############################
+portfolio:
+  enable : true
+  title : Nuestros trabajos
+  portfolio_item :
+    # portfolio item loop
+    - name : Tag Design
+      image : images/portfolio/portfolio-1.jpg
+      image_webp : images/portfolio/portfolio-1.webp
+      categories : ["diseño"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "https://themefisher.com"
+      
+    # portfolio item loop
+    - name : Sound system
+      image : images/portfolio/portfolio-2.jpg
+      image_webp : images/portfolio/portfolio-2.webp
+      categories : ["desarrollo"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : ""
+      
+    # portfolio item loop
+    - name : Clock Product
+      image : images/portfolio/portfolio-3.jpg
+      image_webp : images/portfolio/portfolio-3.webp
+      categories : ["diseño", "desarrollo"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+      
+    # portfolio item loop
+    - name : Bottol Label
+      image : images/portfolio/portfolio-4.jpg
+      image_webp : images/portfolio/portfolio-4.webp
+      categories : ["aplicaciones", "desarrollo"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+      
+    # portfolio item loop
+    - name : Shopping Bag
+      image : images/portfolio/portfolio-5.jpg
+      image_webp : images/portfolio/portfolio-5.webp
+      categories : ["diseño"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+      
+    # portfolio item loop
+    - name : Tag Design
+      image : images/portfolio/portfolio-6.jpg
+      image_webp : images/portfolio/portfolio-6.webp
+      categories : ["aplicaciones"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+      
+    # portfolio item loop
+    - name : Business Card
+      image : images/portfolio/portfolio-7.jpg
+      image_webp : images/portfolio/portfolio-7.webp
+      categories : ["desarrollo"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+      
+    # portfolio item loop
+    - name : Stationary Design
+      image : images/portfolio/portfolio-8.jpg
+      image_webp : images/portfolio/portfolio-8.webp
+      categories : ["diseño", "desarrollo"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+      
+    # portfolio item loop
+    - name : Tag Design
+      image : images/portfolio/portfolio-2.jpg
+      image_webp : images/portfolio/portfolio-2.webp
+      categories : ["diseño", "aplicaciones"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"

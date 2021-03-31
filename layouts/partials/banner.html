@@ -3,9 +3,37 @@
 {{ if $data.banner.banner.enable }}
 {{ with $data.banner.banner }}
 {{"<!-- Welcome Slider-->" | safeHTML}}
+<style>
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+</style>
+{{ if $data.banner.banner.video_enabled }}
+<section class="hero-area">
+	<!-- this image is for trigger this section fallback background image -->
+	{{ if $data.banner.banner.bg_video_vm }}
+	<video src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/708209935.mp4" autoplay loop playsinline muted></video>
+	{{end}}
+	{{ if $data.banner.banner.bg_video_yt }}
+	<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;"  
+		src="https://www.youtube.com/embed/vMLk_T0PPbk?controls=0" 
+		title="YouTube video player"
+		frameborder="0" 
+		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	{{end}}
+{{ else }}
 <section class="hero-area" style='background-image: url("{{ .bg_image_webp | absURL }}")'>
 	<!-- this image is for trigger this section fallback background image -->
+	
 	<img class="d-none" src="{{ .bg_image_webp | absURL }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'"/>
+	{{end}}
+
 
 	<div class="block">
 		{{ if .icon }}

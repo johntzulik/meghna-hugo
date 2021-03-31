@@ -1,0 +1,44 @@
+################################# Service #################################
+service:
+  enable : true
+  title : Nuestros Servivios
+  service_item :
+    # service item loop
+    - name : Desarrollo web
+      icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      
+    # service item loop
+    - name : Diseño gráfico
+      icon : ti-layout # themify icon pack : https://themify.me/themify-icons
+      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      
+    # service item loop
+    - name : Aplicaciones móviles
+      icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
+      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      
+    # service item loop
+    - name : Ingeniería
+      icon : ti-palette # themify icon pack : https://themify.me/themify-icons
+      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      
+    # service item loop
+    - name : Social Media
+      icon : ti-package # themify icon pack : https://themify.me/themify-icons
+      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      
+    # service item loop
+    - name : Branding
+      icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
+      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+
+    # service item loop
+    - name : Servicios en la nube
+      icon : ti-soundcloud # themify icon pack : https://themify.me/themify-icons
+      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+
+    # service item loop
+    - name : Online Advertising
+      icon : ti-share # themify icon pack : https://themify.me/themify-icons
+      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
