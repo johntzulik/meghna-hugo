@@ -180,7 +180,7 @@ icon = "ti-facebook"
 link = "#"
 [[params.social]]
 icon = "ti-twitter-alt"
-link = "#"
+link = "https://twitter.com/johntzulik"
 [[params.social]]
 icon = "ti-youtube"
 link = "#"
