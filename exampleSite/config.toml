@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
-baseURL = "https://examplesite.com"
-title = "Meghna"
+baseURL = "http://juanfe.ml"
+title = "Juan Felipe Morales"
 theme = "meghna-hugo"
 themesDir = "../.."
 # post pagination
@@ -11,6 +11,7 @@ summaryLength = "15"
 disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = []
+defaultContentLanguage = "es"
 
 ############################# Plugins ##########################
 # css plugins
@@ -84,13 +85,6 @@ pre = "#"
 url = "contact"
 weight = 7
 
-[[Languages.en.menu.main]]
-name = "themefisher"
-pre = ""
-url = "https://themefisher.com/"
-weight = 8
-
-
 ################### French Navigation ########################
 [[Languages.fr.menu.main]]
 name = "sur"
@@ -134,18 +128,55 @@ pre = "#"
 url = "contact"
 weight = 7
 
-[[Languages.fr.menu.main]]
-name = "themefisher"
-pre = ""
-url = "https://themefisher.com/"
-weight = 8
+################### Spanish Navigation ########################
+[[Languages.es.menu.main]]
+name = "Acerca de"
+pre = "#"
+url = "about"
+weight = 1
+
+[[Languages.es.menu.main]]
+name = "Servicios"
+pre = "#"
+url = "services"
+weight = 2
+
+[[Languages.es.menu.main]]
+name = "Portafolio"
+pre = "#"
+url = "portfolio"
+weight = 3
+
+[[Languages.es.menu.main]]
+name = "Equipo"
+pre = "#"
+url = "team"
+weight = 4
+
+[[Languages.es.menu.main]]
+name = "Precio"
+pre = "#"
+url = "pricing"
+weight = 5
+
+[[Languages.es.menu.main]]
+name = "Blog"
+pre = "#"
+url = "blog"
+weight = 6
+
+[[Languages.es.menu.main]]
+name = "Contacto"
+pre = "#"
+url = "contact"
+weight = 7
 
 ############################# Default Parameters ##########################
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "Responsive Multipurpose Parallax Hugo Template"
-author = "Themefisher"
+description = "Juan Felipe Morales"
+author = "Juan Felipe Morales"
 # Google Analytics
 google_analytics_id = "" # Your ID
 # post share
@@ -194,15 +225,23 @@ link = "#"
 icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
 link = "#"
 
+################################ Spanish Language ########################
+[Languages.es]
+languageName = "Es"
+languageCode = "Es-Mx"
+contentDir = "content/spanish"
+weight = 1
+home = "Inicio"
+copyright = "Copyright &copy; 2021"
 
 ################################ English Language ########################
 [Languages.en]
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
-weight = 1
+weight = 2
 home = "Home"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2021"
 
 ################################ France Language ########################
 [Languages.fr]
@@ -211,4 +250,5 @@ languageCode = "fr-fr"
 contentDir = "content/french"
 weight = 2
 home = "Accueil"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2021"
+
